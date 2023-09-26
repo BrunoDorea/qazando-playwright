@@ -1,4 +1,4 @@
-# Readme Template
+# Bootcamp Playwright - QAzando
 
 [![wakatime](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc.svg)](https://wakatime.com/@68660678-6b86-4b78-98df-f5f41a37e1bc)
 
@@ -7,15 +7,16 @@
 
 ## 💼 Sobre o projeto
 
-Este repositório foi criado para ser o modelo de template a ser utilizado nos meus projetos.
+Este repositório foi criado para o bootcamp de Playwright da QAzando.
 
 ## ✅ Objetivo
 
-Modelo de readme para ser utilizado nos projetos do github.
+Repositório criado para os testes do bootcamp de Playwright.
 
 ## 💻 Tecnologias e Ferramentas
 
-![Markdown](https://img.shields.io/static/v1?style=for-the-badge&message=Markdown&color=000000&logo=Markdown&logoColor=FFFFFF&label=)
+![Playwright](https://img.shields.io/static/v1?style=for-the-badge&message=Playwright&color=2EAD33&logo=Playwright&logoColor=FFFFFF&label=)
+![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=)
 
 ## 👨🏽‍💻 Autor
 
@@ -30,12 +31,12 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-## Pre Configuração
+## 🖥️ Pre Configuração
 
 - Instalar o node.js
 - Instalar um IDE (VSCode ou outra de sua preferência)
 
-## Commands
+## 🖥️ Comandos
 
 |            Descrição             |            Comando            |
 | :------------------------------: | :---------------------------: |
