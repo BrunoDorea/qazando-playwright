@@ -2,18 +2,29 @@
 const { test, expect } = require('@playwright/test');
 
 test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto('https://www.brunodorea.com.br/');
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  await expect(page).toHaveTitle(/Bruno Dórea/);
 });
 
 test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto('https://www.brunodorea.com.br/');
 
   // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+  await page.getByRole('link', { name: 'Blog' }).click();
 
   // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Artigos' })).toBeVisible();
 });
+
+test('automation pratice - teste login', async ({ page }) => {
+  await page.goto('https://automationpratice.com.br/');
+  await page.getByRole('link', { name: ' Login' }).click();
+  await page.locator('#user').click();
+  await page.locator('#user').fill('teste@teste.com.br');
+  await page.locator('#password').click();
+  await page.locator('#password').fill('1233456');
+  await page.getByRole('button', { name: 'login' }).click();
+  await page.getByRole('button', { name: 'OK' }).click();
+})
