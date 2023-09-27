@@ -18,8 +18,10 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Artigos' })).toBeVisible();
 });
 
-test('automation pratice - teste login', async ({ page }) => {
+test('automation pratice - teste login com sucesso @login', async ({ page }) => {
+  test.setTimeout(20000)
   await page.goto('https://automationpratice.com.br/');
+  await page.screenshot({ path: 'screenshot/screenshot'+ Date.now() + '.png' });
   await page.getByRole('link', { name: ' Login' }).click();
   await page.locator('#user').click();
   await page.locator('#user').fill('teste@teste.com.br');
@@ -27,4 +29,9 @@ test('automation pratice - teste login', async ({ page }) => {
   await page.locator('#password').fill('1233456');
   await page.getByRole('button', { name: 'login' }).click();
   await page.getByRole('button', { name: 'OK' }).click();
-})
+  await page.screenshot({ path: 'screenshot/screenshot'+ Date.now() +'.png' });
+});
+
+// test('', async ({ page }) => {
+
+// });
