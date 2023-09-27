@@ -1,6 +1,6 @@
 # Bootcamp Playwright - QAzando
 
-[![wakatime](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc.svg)](https://wakatime.com/@68660678-6b86-4b78-98df-f5f41a37e1bc)
+[![wakatime](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/09185163-7711-4909-b4c3-41c3697008c8.svg)](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/09185163-7711-4909-b4c3-41c3697008c8)
 
 ## 💼 Sobre o projeto
 
